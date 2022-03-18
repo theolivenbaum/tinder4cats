@@ -5,8 +5,10 @@ const babel = require('gulp-babel');
 const through = require('through2');
 const htmlMinifier = require('gulp-html-minifier');
 const replace = require('gulp-replace');
+const fs = require('fs');
 
 const pkg = require('./package.json');
+var data = fs.readFileSync("./data/profiles.json", "utf8");
 
 gulp.task('build-css', _ =>
   gulp.src('app/*.css')
@@ -17,6 +19,7 @@ gulp.task('build-css', _ =>
 gulp.task('build-js', _ =>
   gulp.src('app/*.js')
     .pipe(replace('{%VERSION%}', pkg.version))
+    .pipe(replace('{%ITEMS%}', data))
     .pipe(babel({
       presets: ['babili']
     }))

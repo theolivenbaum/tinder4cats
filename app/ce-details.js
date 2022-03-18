@@ -1,7 +1,7 @@
-customElements.define('tinderforbananas-details', class extends HTMLElement {
+customElements.define('tinder4cats-details', class extends HTMLElement {
   constructor() {
     super();
-    this._carousel = this.querySelector('tinderforbananas-carousel');
+    this._carousel = this.querySelector('tinder4cats-carousel');
   }
 
   connectedCallback() {

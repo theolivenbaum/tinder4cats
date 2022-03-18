@@ -1,4 +1,4 @@
-customElements.define('tinderforbananas-carousel', class extends HTMLElement {
+customElements.define('tinder4cats-carousel', class extends HTMLElement {
   constructor() {
     super();
     const mo = new MutationObserver(this.updateChildren.bind(this));
