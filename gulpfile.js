@@ -40,4 +40,4 @@ gulp.task('copy', _ =>
     .pipe(gulp.dest('dist'))
 )
 
-gulp.task('default', ['build-css', 'build-js', 'build-html', 'copy']);
+gulp.task('default', gulp.series('build-css', 'build-js', 'build-html', 'copy'));

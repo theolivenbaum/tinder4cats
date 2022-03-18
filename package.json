@@ -1,10 +1,10 @@
 {
-  "name": "tinder4cats.com",
+  "name": "tinder4cats",
   "version": "1.1.5",
   "description": "Tinder For Cats",
   "repository": {
     "type": "git",
-    "url": "https://github.com/theolivenbaum/tinder4cats.com"
+    "url": "https://github.com/theolivenbaum/tinder4cats"
   },
   "author": "Rafael <rafael@curiosity.ai>",
   "license": "Apache-2.0",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "babel-preset-babili": "^0.0.9",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-babel": "^6.1.2",
     "gulp-html-minifier": "^0.1.8",
     "gulp-postcss": "^6.2.0",
