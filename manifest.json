@@ -1,0 +1,14 @@
+{
+  "background_color": "#ffffff",
+  "name": "Tinder for Cats",
+  "short_name": "Tinder for Cats",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/paw-heart.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait"
+}

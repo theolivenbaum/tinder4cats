@@ -1,0 +1,361 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  color: #000;
+  color: initial;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+}
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 2.824vh;
+  color: hsla(0, 0%, 30%, 1);
+  background-color: black;
+}
+.tinder4cats {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 63.529vh;
+  max-width: 63.529vh;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  background-color: hsla(0, 0%, 95%, 1);
+
+  overflow: hidden;
+}
+.tinder4cats header {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  height: 8.471vh;
+  background-color: hsla(0, 0%, 100%, 1);
+  box-shadow: 0 4px 4px hsla(0, 0%, 0%, .05);
+  margin-bottom: 2.824vh;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tinder4cats header p {
+  margin: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tinder4cats header .header-app
+{
+  padding-bottom: 8px;
+}
+.tinder4cats header .copyright {
+  font-size: 0.5em;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tinder4cats .view {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+  height: 100%;
+}
+.tinder4cats .view--swipelist .item {
+  border-radius: 1.882vh;
+  background-color: hsla(0, 0%, 100%, 1);
+  margin: 0 1.882vh;
+  box-shadow: 0 4px 4px hsla(0, 0%, 0%, .05);
+  will-change: transform;
+  overflow: hidden;
+  position: absolute;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+}
+.tinder4cats .view--swipelist .item picture {
+  position: relative;
+  width: 100%;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.tinder4cats .view--swipelist .item picture:before {
+  content: '';
+  display: block;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  padding-bottom: 100%;
+}
+
+.tinder4cats .view--details .item__details,
+.tinder4cats .view--swipelist .item__details {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  padding: 1.882vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tinder4cats .view--details .item__details {
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.tinder4cats .view--swipelist .item .action {
+  position: absolute;
+  font-size: 4.235vh;
+  text-transform: uppercase;
+  border: 0.588vh solid black;
+  border-radius: 0.588vh;
+  padding: 0.941vh 1.882vh;
+  text-align: center;
+  transform-origin: 50% 50%;
+  will-change: opacity;
+  opacity: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tinder4cats .view--swipelist .item .action--nope {
+  right: 5.647vh;
+  top: 5.647vh;
+  color: hsla(10, 100%, 60%, 1);
+  border-color: hsla(10, 100%, 60%, 1);
+  transform: rotate(15deg);
+}
+.tinder4cats .view--swipelist .item .action--like {
+  left: 5.647vh;
+  top: 5.647vh;
+  color: hsla(170, 100%, 45%, 1);
+  border-color: hsla(170, 100%, 45%, 1);
+  transform: rotate(-15deg);
+}
+.tinder4cats .view--swipelist .item .action--superlike {
+  bottom: 5.647vh;
+  left: 50%;
+  transform: rotate(-15deg) translateX(-50%);
+  color: hsla(200, 100%, 50%, 1);
+  border-color: hsla(200, 100%, 50%, 1);
+}
+.hidden {
+  display: none !important;
+}
+.tinder4cats .view--swipelist .item__details,
+.tinder4cats .view--swipelist nav {
+  opacity: 1;
+  transition: opacity 0.15s ease-in-out;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+.tinder4cats .view--swipelist.overlaid picture {
+  visibility: hidden;
+}
+.tinder4cats .view--swipelist.overlaid .item__details,
+.tinder4cats .view--swipelist.overlaid nav {
+  opacity: 0;
+}
+.tinder4cats .view--swipelist + .view--details section,
+.tinder4cats .view--swipelist + .view--details nav {
+  transition: transform 0.15s ease-in-out;
+}
+.tinder4cats .view--swipelist.overlaid + .view--details section,
+.tinder4cats .view--swipelist.overlaid + .view--details nav {
+  transform: translateY(50vh);
+}
+.tinder4cats .view--swipelist__controls {
+  margin-top: auto;
+}
+.tinder4cats .view--swipelist__controls,
+.tinder4cats .view--details__controls {
+  padding: 1.882vh;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.tinder4cats .view--details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.tinder4cats .view--details__controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(0deg, hsla(0, 0%, 100%, 1), hsla(0, 0%, 100%, .5) 70%, hsla(0, 0%, 100%, 0));
+}
+.tinder4cats .control {
+  border-radius: 50%;
+  background-color: hsla(0, 0%, 100%, 1);
+  box-shadow: 0 4px 4px hsla(0, 0%, 0%, .05);
+  border: 0;
+  padding: 0;
+}
+.tinder4cats .control svg {
+  width: 100%;
+  height: 100%;
+  stroke-linecap: round;
+  /* Fallback for Safari */
+  stroke-width: 8px;
+  stroke-width: 0.941vh;
+  stroke-linejoin: round;
+}
+.tinder4cats .control--big {
+  width: 11.294vh;
+  height: 11.294vh;
+}
+.tinder4cats .control--small {
+  width: 7.529vh;
+  height: 7.529vh;
+}
+.tinder4cats .control--nope svg {
+  stroke: hsla(10, 100%, 60%, 1);
+  fill: hsla(10, 100%, 60%, 1);
+}
+.tinder4cats .control--like svg {
+  stroke: hsla(170, 100%, 45%, 1);
+  fill: hsla(170, 100%, 45%, 1);
+}
+.tinder4cats .control--superlike svg {
+  stroke: hsla(200, 100%, 50%, 1);
+  fill: hsla(200, 100%, 50%, 1);
+}
+.tinder4cats .control--undo svg {
+  stroke: hsla(45, 100%, 50%, 1);
+  fill: hsla(45, 100%, 50%, 1);
+}
+.tinder4cats .control--inverted svg {
+  stroke: hsla(0, 0%, 100%, 1);
+  fill: hsla(0, 0%, 100%, 1);
+}
+.tinder4cats .control--inverted.control--like {
+  background-color: hsla(170, 100%, 45%, 1);
+}
+.tinder4cats .control--inverted.control--nope {
+  background-color: hsla(10, 100%, 60%, 1);
+}
+.tinder4cats .control--inverted.control--superlike {
+  background-color: hsla(200, 100%, 50%, 1);
+}
+tinder4cats-details {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: stretch;
+      align-items: stretch;
+
+  -ms-flex-positive: 1;
+
+      flex-grow: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.tinder4cats .item__details__name {
+  font-weight: 700;
+}
+.tinder4cats .item__details__age {
+  margin-left: 0.2em;
+}
+.tinder4cats .item__details__job,
+.tinder4cats .item__details__distance {
+  font-size: 0.7em;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+.tinder4cats .item__details__distance {
+  color: hsla(0, 0%, 0%, .34);
+}
+.tinder4cats .view--details .description,
+.tinder4cats .view--details .item__details {
+  background-color: hsla(0, 0%, 100%, 1);
+}
+.tinder4cats .view--details .description {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+  border-top: 1px solid hsla(0, 0%, 0%, .34);
+  font-size: 0.7em;
+  padding: 1.882vh;
+  padding-bottom: 15.058vh
+}
+tinder4cats-carousel {
+  position: relative;
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  overflow: hidden;
+}
+tinder4cats-carousel:before {
+  content: '';
+  width: 100%;
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  padding-bottom: 100%;
+}
+tinder4cats-carousel .carousel__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
