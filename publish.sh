@@ -15,6 +15,7 @@
 # git checkout $CURRENT_BRANCH
 # git stash pop 
 
+rmdir /s dist
 npm run build
 copy CNAME dist\CNAME
 cd dist
