@@ -26,7 +26,7 @@
   {
     "id": 2,
     "name": "Milo",
-    "age": 1,
+    "age": 2,
     "job": "Firefighter",
     "images": [
       "images/photos/profile_2.jpg"
@@ -38,7 +38,7 @@
   {
     "id": 3,
     "name": "Charlie",
-    "age": 1,
+    "age": 2,
     "job": "Doctor",
     "images": [
       "images/photos/profile_3.jpg"
@@ -86,7 +86,7 @@
   {
     "id": 7,
     "name": "Loki",
-    "age": 1,
+    "age": 2,
     "job": "Model",
     "images": [
       "images/photos/profile_7.jpg"
@@ -98,7 +98,7 @@
   {
     "id": 8,
     "name": "Tiger",
-    "age": 1,
+    "age": 2,
     "job": "Paramedic",
     "images": [
       "images/photos/profile_8.jpg"
@@ -110,7 +110,7 @@
   {
     "id": 9,
     "name": "Jasper",
-    "age": 1,
+    "age": 2,
     "job": "College Student",
     "images": [
       "images/photos/profile_9.jpg"
@@ -158,7 +158,7 @@
   {
     "id": 13,
     "name": "Buddy",
-    "age": 1,
+    "age": 2,
     "job": "Police Officer",
     "images": [
       "images/photos/profile_13.jpg"
@@ -230,7 +230,7 @@
   {
     "id": 19,
     "name": "Shadow",
-    "age": 1,
+    "age": 2,
     "job": "Dentist",
     "images": [
       "images/photos/profile_19.jpg"
@@ -255,7 +255,7 @@
     "id": 21,
     "name": "Salem",
     "age": 7,
-    "job": "Flight Attendnt",
+    "job": "Flight Attendant",
     "images": [
       "images/photos/profile_21.jpg"
     ],
@@ -338,7 +338,7 @@
   {
     "id": 28,
     "name": "Tigger",
-    "age": 1,
+    "age": 2,
     "job": "Firefighter",
     "images": [
       "images/photos/profile_28.jpg"
@@ -494,7 +494,7 @@
   {
     "id": 41,
     "name": "Thor",
-    "age": 1,
+    "age": 2,
     "job": "Interior Designer",
     "images": [
       "images/photos/profile_41.jpg"
@@ -567,7 +567,7 @@
     "id": 47,
     "name": "Tucker",
     "age": 7,
-    "job": "Flight Attendnt",
+    "job": "Flight Attendant",
     "images": [
       "images/photos/profile_47.jpg"
     ],
@@ -722,7 +722,7 @@
   {
     "id": 60,
     "name": "Midnight",
-    "age": 1,
+    "age": 2,
     "job": "Paramedic",
     "images": [
       "images/photos/profile_60.jpg"
@@ -770,7 +770,7 @@
   {
     "id": 64,
     "name": "Ash",
-    "age": 1,
+    "age": 2,
     "job": "Financial Advisor",
     "images": [
       "images/photos/profile_64.jpg"
@@ -879,7 +879,7 @@
     "id": 73,
     "name": "Garfield",
     "age": 22,
-    "job": "Flight Attendnt",
+    "job": "Flight Attendant",
     "images": [
       "images/photos/profile_73.jpg"
     ],
@@ -950,7 +950,7 @@
   {
     "id": 79,
     "name": "Mac",
-    "age": 1,
+    "age": 2,
     "job": "Founder/Entrepreneur",
     "images": [
       "images/photos/profile_79.jpg"
@@ -1142,7 +1142,7 @@
   {
     "id": 95,
     "name": "Bentley",
-    "age": 1,
+    "age": 2,
     "job": "Influencer",
     "images": [
       "images/photos/profile_95.jpg"
@@ -1190,8 +1190,8 @@
   {
     "id": 99,
     "name": "Bagheera",
-    "age": 1,
-    "job": "Flight Attendnt",
+    "age": 2,
+    "job": "Flight Attendant",
     "images": [
       "images/photos/profile_99.jpg"
     ],
@@ -1238,7 +1238,7 @@
   {
     "id": 103,
     "name": "Kitty",
-    "age": 1,
+    "age": 2,
     "job": "Hunter",
     "images": [
       "images/photos/profile_103.jpg"
@@ -1418,7 +1418,7 @@
   {
     "id": 118,
     "name": "Cali",
-    "age": 1,
+    "age": 2,
     "job": "Physical Therapist",
     "images": [
       "images/photos/profile_118.jpg"
@@ -1503,7 +1503,7 @@
     "id": 125,
     "name": "Zoey",
     "age": 7,
-    "job": "Flight Attendnt",
+    "job": "Flight Attendant",
     "images": [
       "images/photos/profile_125.jpg"
     ],
@@ -1526,7 +1526,7 @@
   {
     "id": 127,
     "name": "Coco",
-    "age": 1,
+    "age": 2,
     "job": "Secret Service Agent",
     "images": [
       "images/photos/profile_127.jpg"
@@ -1586,7 +1586,7 @@
   {
     "id": 132,
     "name": "Zoe",
-    "age": 1,
+    "age": 2,
     "job": "Firefighter",
     "images": [
       "images/photos/profile_132.jpg"
@@ -1634,7 +1634,7 @@
   {
     "id": 136,
     "name": "Hazel",
-    "age": 1,
+    "age": 2,
     "job": "Engineer",
     "images": [
       "images/photos/profile_136.jpg"
@@ -1670,7 +1670,7 @@
   {
     "id": 139,
     "name": "Baby",
-    "age": 1,
+    "age": 2,
     "job": "College Student",
     "images": [
       "images/photos/profile_139.jpg"
@@ -1814,8 +1814,8 @@
   {
     "id": 151,
     "name": "Fiona",
-    "age": 1,
-    "job": "Flight Attendnt",
+    "age": 2,
+    "job": "Flight Attendant",
     "images": [
       "images/photos/profile_151.jpg"
     ],
@@ -1838,7 +1838,7 @@
   {
     "id": 153,
     "name": "Sassy",
-    "age": 1,
+    "age": 2,
     "job": "Secret Service Agent",
     "images": [
       "images/photos/profile_153.jpg"
@@ -1886,7 +1886,7 @@
   {
     "id": 157,
     "name": "Cookie",
-    "age": 1,
+    "age": 2,
     "job": "Founder/Entrepreneur",
     "images": [
       "images/photos/profile_157.jpg"
@@ -1898,7 +1898,7 @@
   {
     "id": 158,
     "name": "Mimi",
-    "age": 1,
+    "age": 2,
     "job": "Firefighter",
     "images": [
       "images/photos/profile_158.jpg"
@@ -1946,7 +1946,7 @@
   {
     "id": 162,
     "name": "Emma",
-    "age": 1,
+    "age": 2,
     "job": "Engineer",
     "images": [
       "images/photos/profile_162.jpg"
@@ -1958,7 +1958,7 @@
   {
     "id": 163,
     "name": "Poppy",
-    "age": 1,
+    "age": 2,
     "job": "Model",
     "images": [
       "images/photos/profile_163.jpg"
@@ -1982,7 +1982,7 @@
   {
     "id": 165,
     "name": "Ivy",
-    "age": 1,
+    "age": 2,
     "job": "College Student",
     "images": [
       "images/photos/profile_165.jpg"
@@ -2006,7 +2006,7 @@
   {
     "id": 167,
     "name": "Abby",
-    "age": 1,
+    "age": 2,
     "job": "Personal Trainer",
     "images": [
       "images/photos/profile_167.jpg"
@@ -2066,7 +2066,7 @@
   {
     "id": 172,
     "name": "Bean",
-    "age": 1,
+    "age": 2,
     "job": "Pharmacist",
     "images": [
       "images/photos/profile_172.jpg"
@@ -2127,7 +2127,7 @@
     "id": 177,
     "name": "Frankie",
     "age": 8,
-    "job": "Flight Attendnt",
+    "job": "Flight Attendant",
     "images": [
       "images/photos/profile_177.jpg"
     ],
@@ -2174,7 +2174,7 @@
   {
     "id": 181,
     "name": "Charlotte",
-    "age": 1,
+    "age": 2,
     "job": "Hunter",
     "images": [
       "images/photos/profile_181.jpg"
@@ -2258,7 +2258,7 @@
   {
     "id": 188,
     "name": "Mila",
-    "age": 1,
+    "age": 2,
     "job": "Engineer",
     "images": [
       "images/photos/profile_188.jpg"
@@ -2270,7 +2270,7 @@
   {
     "id": 189,
     "name": "Smokey",
-    "age": 1,
+    "age": 2,
     "job": "Model",
     "images": [
       "images/photos/profile_189.jpg"
@@ -2306,7 +2306,7 @@
   {
     "id": 192,
     "name": "Freya",
-    "age": 1,
+    "age": 2,
     "job": "Lawyer",
     "images": [
       "images/photos/profile_192.jpg"
@@ -2366,7 +2366,7 @@
   {
     "id": 197,
     "name": "Peaches",
-    "age": 1,
+    "age": 2,
     "job": "Interior Designer",
     "images": [
       "images/photos/profile_197.jpg"

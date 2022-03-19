@@ -28,8 +28,8 @@ customElements.define('tinder4cats-details', class extends HTMLElement {
     }
     this.querySelector('.item__details__name').textContent = this.data.name;
     this.querySelector('.item__details__age').textContent = this.data.age;
-    this.querySelector('.item__details__job').textContent = this.data.job;
-    this.querySelector('.item__details__distance').textContent = `${this.data.distance} miles away`;
+    this.querySelector('.item__details__job').textContent = (this.data.university ? "⚒️ " : "") + this.data.job + " " + (this.data.university ? "🎓 " + this.data.university : "");
+    this.querySelector('.item__details__distance').textContent = `${this.data.distance} kilometers away`;
     this.querySelector('.description').textContent = this.data.description;
   }
 });

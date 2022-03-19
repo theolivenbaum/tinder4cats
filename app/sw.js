@@ -6,11 +6,6 @@
     'images/paw-heart.png',
     'images/paw-heart.svg',
 
-    'images/testpic1.jpg',
-    'images/testpic2.jpg',
-    'images/testpic3.jpg',
-    'images/testpic4.jpg',
-
     'app.js',
     'ce-carousel.js',
     'ce-details.js',

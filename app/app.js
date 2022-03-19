@@ -1,6 +1,6 @@
 (function () {
   const items = {%ITEMS%};
-
+  items.sort(() => Math.random() - 0.5);
   const dataProvider = (function* () {
     while (true) {
       yield *items;
@@ -26,6 +26,7 @@
   function updateCards(event) {
     const top = document.querySelector('.item--top');
     window.ga && ga('send', 'event', `item-${top.data.id}`, event.detail);
+    window.mixpanel && mixpanel.track(event.type + "-" + event.detail, {'profile' : top.data.name  + "-" + top.data.id });
     const next = document.querySelector('.item--next');
     const details = document.querySelector('tinder4cats-details');
     top.style.transform = '';
