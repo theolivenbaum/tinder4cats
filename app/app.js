@@ -1,6 +1,6 @@
 (function () {
   const items = {%ITEMS%};
-  items.sort(() => Math.random() - 0.5);
+  items.sort((a,b) => Math.random() - 0.5);
   const dataProvider = (function* () {
     while (true) {
       yield *items;
