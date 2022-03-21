@@ -1,6 +1,7 @@
 dist
 node_modules
-app/images
+app/
+profiles/
 
 *.binlog
 ## Ignore Visual Studio temporary files, build results, and
@@ -299,20 +300,5 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
-# Temporary projects folder
-DoNotCommit/
-
-# Documentation intermediate files
-
-Mosaik.Library.xml
-
 # Environment files
 **/env/
-**/mosaik.yml
-
-#External Ressources
-**/models.zip
-.DS_Store
-Mosaik/.DS_Store
-Licensing/License.Server/dashboard
-profiles/profiles_revised.xlsx
